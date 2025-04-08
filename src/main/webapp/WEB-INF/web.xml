@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+             http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+
+
+
+    <!-- Servlet Definitions -->
+    <servlet>
+        <servlet-name>FormDepServlet</servlet-name>
+        <servlet-class>servlet.FormDepServlet</servlet-class>
+    </servlet>
+    
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>FormDepServlet</servlet-name>
+        <url-pattern>/formDep</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>FormPrevServlet</servlet-name>
+        <servlet-class>servlet.FormPrevServlet</servlet-class>
+    </servlet>
+    
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>FormPrevServlet</servlet-name>
+        <url-pattern>/formPrev</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EtatServlet</servlet-name>
+        <servlet-class>servlet.EtatServlet</servlet-class>
+    </servlet>
+    
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>EtatServlet</servlet-name>
+        <url-pattern>/etat</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AccServlet</servlet-name>
+        <servlet-class>servlet.AccServlet</servlet-class>
+    </servlet>
+    
+    
+    <!-- Servlet Mappings -->
+    <servlet-mapping>
+        <servlet-name>AccServlet</servlet-name>
+        <url-pattern>/acceuil</url-pattern> <!-- Maps the servlet to /hello URL -->
+    </servlet-mapping>
+
+   
+
+</web-app>
